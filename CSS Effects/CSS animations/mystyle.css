@@ -1,0 +1,48 @@
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+.pagination-spaces {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination-spaces:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+.pagination-no-spaces {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination-no-spaces:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+.pagination-animated {
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+}

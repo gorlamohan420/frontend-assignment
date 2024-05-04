@@ -1,0 +1,21 @@
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }

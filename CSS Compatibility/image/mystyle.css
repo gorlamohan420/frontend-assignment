@@ -1,0 +1,16 @@
+ 
+  .hero-image {
+    background-image: url('your-image-url.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    position: relative;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text {
+    z-index: 1;
+  }

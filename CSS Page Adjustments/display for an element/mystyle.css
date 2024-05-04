@@ -1,0 +1,41 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    color: blue;
+}
+.element {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    color: blue;
+}
+.hidden {
+    visibility: hidden; 
+}
+
+.visible {
+    visibility: visible; 
+}
+
+.collapsed {
+    visibility: collapse; 
+}
+.none {
+    display: none; 
+}
+
+.inline {
+    display: inline; 
+}
+
+.block {
+    display: block; 
+}
+
+.contents {
+    display: contents; 
+}
+
+.list-item {
+    display: list-item;
+}

@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+
+.bold-text {
+    font-weight: bold;
+    color: #333;
+}
+.italic-text {
+    font-style: italic;
+    color: black;
+}
+.underline-text {
+    text-decoration: underline;
+    color: red;
+}
+.small-text {
+    font-size: 14px;
+    color: #007bff; 
+}
+.medium-text {
+    font-size: 18px;
+    color: #28a745; 
+}
+.large-text {
+    font-size: 24px;
+    color: #dc3545; 
+}
+.serif-font {
+    font-family: 'Times New Roman', Times, serif;
+    color: #795548; 
+}
+.sans-serif-font {
+    font-family: Arial, sans-serif;
+    color: #17a2b8; 
+}

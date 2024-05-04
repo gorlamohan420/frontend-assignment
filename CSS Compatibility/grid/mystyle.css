@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .simple-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .different-sizes-grid {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .fixed-sizes-grid {
+    grid-template-columns: 100px 200px 150px;
+  }
+  .auto-size-grid {
+    grid-template-columns: auto auto auto;
+  }
+h2{
+    text-align: center;
+    color: blueviolet;
+  }
+div{
+    color: red;
+   }
